@@ -1,0 +1,50 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# camapping
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+camapping is a collection of commonly used vector data in California.
+
+## Installation
+
+You can install the released version of camapping from GitHub with:
+
+``` r
+remotes::install_github("ir-sfsu/camappiong")
+```
+
+## Counties
+
+```{r}
+library(camapping)
+library(mapview)
+mapview(counties)
+```
+
+## Cities
+
+```{r}
+mapview(cities)
+```
+
+## Schools
+
+```{r}
+mapview(schools)
+```
+
