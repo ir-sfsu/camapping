@@ -42,3 +42,11 @@ mapview(schools)
 ```
 
 <img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />
+
+## Regions
+
+``` r
+mapview(regions)
+```
+
+<img src="man/figures/README-unnamed-chunk-5-1.png" width="100%" />

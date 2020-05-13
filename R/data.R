@@ -20,3 +20,10 @@
 #' @format An sf object with 10043 features and 83 fields
 "schools"
 
+#' California regions
+#'
+#' MULTIPOLYGON/POLYGON object of six Caifornia regions
+#'
+#' @format An sf object with 5 features and 2 fields
+"regions"
+
