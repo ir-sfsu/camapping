@@ -14,7 +14,7 @@ camapping is a collection of commonly used vector data in California.
 You can install the released version of camapping from GitHub with:
 
 ``` r
-remotes::install_github("ir-sfsu/camappiong")
+remotes::install_github("ir-sfsu/camapping")
 ```
 
 ## Counties
